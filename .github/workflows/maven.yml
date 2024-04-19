@@ -27,3 +27,12 @@ jobs:
       - name: Run tests
         run: mvn test
         continue-on-error: true
+
+      - name: Set up Git identity
+        run: |
+          git config user.email "m.daoud@esi-sba.dz"
+          git config user.name "ryaddaoud21"
+
+      - name: Check test results
+        if: ${{ failure() }}
+        run: echo "Tests failed!"
