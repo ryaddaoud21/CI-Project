@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="" />
+    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="création de la classe Personnage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Personnage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,19 +64,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713515387151</updated>
-      <workItem from="1713515388116" duration="339000" />
+      <workItem from="1713515388116" duration="418000" />
     </task>
+    <task id="LOCAL-00001" summary="création de la classe Personnage">
+      <option name="closed" value="true" />
+      <created>1713515759201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515759201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="création de la classe Personnage" />
+    <option name="LAST_COMMIT_MESSAGE" value="création de la classe Personnage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Personnage.java</url>
-          <line>31</line>
+          <line>53</line>
           <properties class="org.example.Personnage">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
