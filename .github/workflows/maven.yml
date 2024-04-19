@@ -52,3 +52,10 @@ jobs:
           git reset --soft HEAD~1
           git push --force origin dev
 
+      - name: Check test results
+        if: success() && github.ref == 'refs/heads/dev'
+        run: |
+          echo "Tests passed!"
+          git pull --ff-only origin dev
+          git push origin HEAD:master
+
