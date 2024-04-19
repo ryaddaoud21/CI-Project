@@ -44,3 +44,11 @@ jobs:
             git checkout -b failure-branch-${{ github.run_id }}
             git push origin failure-branch-${{ github.run_id }}
 
+      - name: Git reset
+        if: ${{ failure() }}
+        run: |
+          git fetch --deepen=2
+          git checkout dev
+          git reset --soft HEAD~1
+          git push --force origin dev
+
