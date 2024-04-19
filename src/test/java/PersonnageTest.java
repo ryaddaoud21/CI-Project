@@ -11,6 +11,12 @@ public class PersonnageTest {
     }
 
     @Test
+    public void testNonMortInitialement() {
+        Personnage personnage = new Personnage(false, 50);
+        assertFalse("Le personnage ne doit pas être mort initialement", personnage.est_Mort());
+    }
+
+    @Test
     public void testInversionEtatMort() {
         Personnage personnage = new Personnage(true, 0);
         assertTrue("Le personnage doit être initialisé à mort", personnage.est_Mort());
@@ -33,6 +39,15 @@ public class PersonnageTest {
         Personnage cible = new Personnage(false, 50);
         attaquant.attaquer(cible);
         assertEquals("Les points de la cible doivent être réduits de 10 points", 40, cible.getPoints());
+    }
+
+    @Test
+    public void testAttaqueSansEffetMortel() {
+        Personnage attaquant = new Personnage(false, 10);
+        Personnage cible = new Personnage(false, 100);
+        attaquant.attaquer(cible);
+        assertFalse("La cible ne doit pas mourir après une attaque non mortelle", cible.est_Mort());
+        assertEquals("Les points de la cible doivent être réduits correctement", 90, cible.getPoints());
     }
 
     @Test

@@ -1,7 +1,5 @@
 package org.example;
 
-
-
 public class Personnage {
     private boolean mort;
     private int points;
