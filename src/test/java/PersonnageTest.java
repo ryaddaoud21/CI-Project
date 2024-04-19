@@ -67,4 +67,23 @@ public class PersonnageTest {
         assertFalse("La cible doit rester vivante", cible.est_Mort());
         assertEquals("Les points de la cible ne doivent pas être changés", 50, cible.getPoints());
     }
+
+    // Ce test échouerait car un personnage mort ne devrait pas pouvoir attaquer efficacement.
+    // @Test
+    // public void testAttaqueParPersonnageMort() {
+    //     Personnage attaquant = new Personnage(true, 0);
+    //     Personnage cible = new Personnage(false, 100);
+    //     attaquant.attaquer(cible);
+    //     assertFalse("Un personnage mort ne devrait pas pouvoir attaquer", cible.est_Mort());
+    //
+
+    // Ce test échouerait car attaquer une cible avec des points suffisants ne devrait pas la tuer.
+    // @Test
+    // public void testAttaqueNonMortelle() {
+    //     Personnage attaquant = new Personnage(false, 10);
+    //     Personnage cible = new Personnage(false, 100);
+    //     attaquant.attaquer(cible);
+    //     assertFalse("La cible ne devrait pas mourir après cette attaque", cible.est_Mort());
+    // }
+
 }
