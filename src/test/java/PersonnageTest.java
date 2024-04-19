@@ -69,21 +69,14 @@ public class PersonnageTest {
     }
 
     // Ce test échouerait car un personnage mort ne devrait pas pouvoir attaquer efficacement.
-    // @Test
-    // public void testAttaqueParPersonnageMort() {
-    //     Personnage attaquant = new Personnage(true, 0);
-    //     Personnage cible = new Personnage(false, 100);
-    //     attaquant.attaquer(cible);
-    //     assertFalse("Un personnage mort ne devrait pas pouvoir attaquer", cible.est_Mort());
-    //
+     @Test
+     public void testAttaqueParPersonnageMort() {
+         Personnage attaquant = new Personnage(true, 0);
+         Personnage cible = new Personnage(false, 100);
+         attaquant.attaquer(cible);
+         assertFalse("Un personnage mort ne devrait pas pouvoir attaquer", cible.est_Mort());
 
-    // Ce test échouerait car attaquer une cible avec des points suffisants ne devrait pas la tuer.
-    // @Test
-    // public void testAttaqueNonMortelle() {
-    //     Personnage attaquant = new Personnage(false, 10);
-    //     Personnage cible = new Personnage(false, 100);
-    //     attaquant.attaquer(cible);
-    //     assertFalse("La cible ne devrait pas mourir après cette attaque", cible.est_Mort());
-    // }
 
+
+}
 }
