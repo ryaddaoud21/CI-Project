@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="configuration du fichier Yaml : revenir d'un commit en arrière lors de l'echec du dernier commit" />
+    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="configuration du fichier Yaml : en cas des tests réussis , pousser les commits sur la branche master .">
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713515387151</updated>
       <workItem from="1713515388116" duration="418000" />
-      <workItem from="1713516602410" duration="3073000" />
+      <workItem from="1713516602410" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="création de la classe Personnage">
       <option name="closed" value="true" />
@@ -139,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713522070166</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="configuration du fichier Yaml : en cas des tests réussis , pousser les commits sur la branche master .">
+      <option name="closed" value="true" />
+      <created>1713522595429</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713522595429</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +163,8 @@
     <MESSAGE value="Passer le dernier test au rouge" />
     <MESSAGE value="configuration du fichier Yaml : création des branches en cas des tests échoués" />
     <MESSAGE value="configuration du fichier Yaml : revenir d'un commit en arrière lors de l'echec du dernier commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuration du fichier Yaml : revenir d'un commit en arrière lors de l'echec du dernier commit" />
+    <MESSAGE value="configuration du fichier Yaml : en cas des tests réussis , pousser les commits sur la branche master ." />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration du fichier Yaml : en cas des tests réussis , pousser les commits sur la branche master ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
