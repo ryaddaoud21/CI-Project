@@ -46,8 +46,8 @@ public class PersonnageTest {
         Personnage attaquant = new Personnage(false, 10);
         Personnage cible = new Personnage(false, 100);
         attaquant.attaquer(cible);
-        //assertFalse("La cible ne doit pas mourir après une attaque non mortelle", cible.est_Mort());
-        assertTrue("La cible ne doit pas mourir après une attaque non mortelle", cible.est_Mort());
+        assertFalse("La cible ne doit pas mourir après une attaque non mortelle", cible.est_Mort());
+        //assertTrue("La cible ne doit pas mourir après une attaque non mortelle", cible.est_Mort());
 
         assertEquals("Les points de la cible doivent être réduits correctement", 90, cible.getPoints());
     }
@@ -57,8 +57,8 @@ public class PersonnageTest {
         Personnage attaquant = new Personnage(false, 100);
         Personnage cible = new Personnage(true, 0);
         attaquant.attaquer(cible);
-        //assertTrue("La cible doit rester morte", cible.est_Mort());
-        assertFalse("La cible doit rester morte", cible.est_Mort());
+        assertTrue("La cible doit rester morte", cible.est_Mort());
+        //assertFalse("La cible doit rester morte", cible.est_Mort());
         assertEquals("Les points de la cible doivent rester à 0", 0, cible.getPoints());
     }
 
@@ -67,8 +67,8 @@ public class PersonnageTest {
         Personnage attaquant = new Personnage(true, 0);
         Personnage cible = new Personnage(false, 50);
         attaquant.attaquer(cible);
-        //assertFalse("La cible doit rester vivante", cible.est_Mort());
-        assertTrue("La cible doit rester vivante", cible.est_Mort());
+        assertFalse("La cible doit rester vivante", cible.est_Mort());
+        //assertTrue("La cible doit rester vivante", cible.est_Mort());
         assertEquals("Les points de la cible ne doivent pas être changés", 50, cible.getPoints());
     }
 }

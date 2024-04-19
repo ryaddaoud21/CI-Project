@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="améliorations sur les tests V.3 : test échoué">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="améliorations sur les tests V.3 : test échoué v2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.PersonnageTest.executor": "Run",
+    "JUnit.PersonnageTest.testAttaqueSansEffetMortel.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713515387151</updated>
       <workItem from="1713515388116" duration="418000" />
-      <workItem from="1713516602410" duration="9059000" />
+      <workItem from="1713516602410" duration="9400000" />
     </task>
     <task id="LOCAL-00001" summary="création de la classe Personnage">
       <option name="closed" value="true" />
@@ -201,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713538714406</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="améliorations sur les tests V.3 : test passé">
+      <option name="closed" value="true" />
+      <created>1713539351338</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713539351338</updated>
+    </task>
+    <task id="LOCAL-00015" summary="améliorations sur les tests V.3 : test échoué v2">
+      <option name="closed" value="true" />
+      <created>1713539439780</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713539439780</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +235,9 @@
     <MESSAGE value="améliorations sur les tests" />
     <MESSAGE value="améliorations sur les tests V.2" />
     <MESSAGE value="améliorations sur les tests V.3 : test échoué" />
-    <option name="LAST_COMMIT_MESSAGE" value="améliorations sur les tests V.3 : test échoué" />
+    <MESSAGE value="améliorations sur les tests V.3 : test passé" />
+    <MESSAGE value="améliorations sur les tests V.3 : test échoué v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="améliorations sur les tests V.3 : test échoué v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
