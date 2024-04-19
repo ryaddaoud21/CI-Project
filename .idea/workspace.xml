@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="l'ajout des tests :  tests unitaires en suivant le principe de Test Driven Development (TDD)">
+    <list default="true" id="b63eba61-52bf-45d2-866e-6acb7e8b5fb1" name="Changes" comment="améliorations sur les tests V.3 : test échoué">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Personnage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonnageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonnageTest.testAttaqueSansEffetMortel">
     <configuration name="PersonnageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP___CI" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,8 +62,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonnageTest.testAttaqueSansEffetMortel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP___CI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonnageTest" />
+      <option name="METHOD_NAME" value="testAttaqueSansEffetMortel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonnageTest.testAttaqueSansEffetMortel" />
         <item itemvalue="JUnit.PersonnageTest" />
       </list>
     </recent_temporary>
@@ -85,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713515387151</updated>
       <workItem from="1713515388116" duration="418000" />
-      <workItem from="1713516602410" duration="7875000" />
+      <workItem from="1713516602410" duration="9059000" />
     </task>
     <task id="LOCAL-00001" summary="création de la classe Personnage">
       <option name="closed" value="true" />
@@ -167,7 +177,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713528349390</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="améliorations sur les tests">
+      <option name="closed" value="true" />
+      <created>1713538082257</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538082257</updated>
+    </task>
+    <task id="LOCAL-00012" summary="améliorations sur les tests V.2">
+      <option name="closed" value="true" />
+      <created>1713538487904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538487904</updated>
+    </task>
+    <task id="LOCAL-00013" summary="améliorations sur les tests V.3 : test échoué">
+      <option name="closed" value="true" />
+      <created>1713538714406</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538714406</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +218,10 @@
     <MESSAGE value="configuration du fichier Yaml : en cas des tests réussis , pousser les commits sur la branche master ." />
     <MESSAGE value="&#9;Passer le dernier test au vert" />
     <MESSAGE value="l'ajout des tests :  tests unitaires en suivant le principe de Test Driven Development (TDD)" />
-    <option name="LAST_COMMIT_MESSAGE" value="l'ajout des tests :  tests unitaires en suivant le principe de Test Driven Development (TDD)" />
+    <MESSAGE value="améliorations sur les tests" />
+    <MESSAGE value="améliorations sur les tests V.2" />
+    <MESSAGE value="améliorations sur les tests V.3 : test échoué" />
+    <option name="LAST_COMMIT_MESSAGE" value="améliorations sur les tests V.3 : test échoué" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,6 +234,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PersonnageTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
