@@ -32,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.PersonnageTest.executor": "Run",
-    "JUnit.PersonnageTest.testAttaqueSansEffetMortel.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/Documents/CDC/CDC_Besoin_Test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.PersonnageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonnageTest.testAttaqueSansEffetMortel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Documents/CDC/CDC_Besoin_Test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.PersonnageTest.testAttaqueSansEffetMortel">
     <configuration name="PersonnageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP___CI" />
@@ -70,9 +70,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonnageTest.testAttaqueSurPersonnageMort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP___CI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonnageTest" />
+      <option name="METHOD_NAME" value="testAttaqueSurPersonnageMort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonnageTest.testPersonnageMortAttaquant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP___CI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonnageTest" />
+      <option name="METHOD_NAME" value="testPersonnageMortAttaquant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonnageTest.testReductionPointsAttaque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP___CI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonnageTest" />
+      <option name="METHOD_NAME" value="testReductionPointsAttaque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonnageTest.testAttaqueSansEffetMortel" />
+        <item itemvalue="JUnit.PersonnageTest.testPersonnageMortAttaquant" />
+        <item itemvalue="JUnit.PersonnageTest.testAttaqueSurPersonnageMort" />
+        <item itemvalue="JUnit.PersonnageTest.testReductionPointsAttaque" />
         <item itemvalue="JUnit.PersonnageTest" />
       </list>
     </recent_temporary>
